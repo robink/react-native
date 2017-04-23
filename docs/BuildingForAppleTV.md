@@ -43,10 +43,6 @@ var running_on_apple_tv = Platform.isTVOS;
 ```js
 var TVEventHandler = require('TVEventHandler');
 
-.
-.
-.
-
 class Game2048 extends React.Component {
   _tvEventHandler: any;
 
